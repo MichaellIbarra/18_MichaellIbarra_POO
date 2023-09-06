@@ -15,8 +15,21 @@ public class Main {
      */
     public static void main(String[] args) {
 
-
-        /* //Para Auto con JOptionPane
+        /* //Para calculadora con Scanner
+        calculadora calculadora = new calculadora();
+        calculadora.preguntar();
+        calculadora.sumar();
+        calculadora.restar();
+        calculadora.multiplicar();
+        calculadora.dividir();
+         */
+ /* //Para Persona con Scanner
+        persona persona = new persona();
+        persona.preguntar();
+        persona.hablar();
+        persona.orden();
+         */
+ /* //Para Auto con JOptionPane
         auto auto1 = new auto();
         auto1.preguntar();
 
@@ -31,22 +44,6 @@ public class Main {
         animal1.mostrarInformacion();
         animal1.emitirSonido();
          */
-        /* //Para calculadora con Scanner
-        calculadora calculadora = new calculadora();
-        calculadora.preguntar();
-        calculadora.sumar();
-        calculadora.restar();
-        calculadora.multiplicar();
-        calculadora.dividir();
-         */
- 
-       /* //Para Persona con Scanner
-        persona persona = new persona();
-        persona.preguntar();
-        persona.hablar();
-        persona.orden();
-        */
-
     }
 
 }
