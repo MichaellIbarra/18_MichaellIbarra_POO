@@ -70,10 +70,13 @@ public class Main {
         //System.out.println(pais1.deuda());
         
         calculador cal = new calculador();
-        cal.sumar(12);
-        cal.sumar("demo");
-        cal.sumar(2, 3);
 
+        cal.sumar(2);
+        cal.sumar("Michaell");
+        cal.sumar(2, 2);
+
+        int resultado = cal.obtenerResultado();
+        System.out.println("Total " + resultado);
     }
 
 }
