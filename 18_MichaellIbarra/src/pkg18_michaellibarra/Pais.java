@@ -18,4 +18,12 @@ public class Pais {
     public void preguntas() {
         System.out.println("Soy el Pais " + nombre + " con una cantidad de personas de " + cantidadPersonas + " y una deuda de " + deuda + " de monedas " + moneda);
     }
+
+    public int deudas() {
+        return 10;
+    }
+
+    public String mon() {
+        return moneda;
+    }
 }

@@ -44,14 +44,36 @@ public class Main {
         animal1.mostrarInformacion();
         animal1.emitirSonido();
          */
- 
         Pais pais1 = new Pais();
-        pais1.nombre = "Peru";
-        pais1.cantidadPersonas = 3000;
-        pais1.deuda = 50000;
-        pais1.moneda = "soles";
+        Pais pais2 = new Pais();
+        //pais1.nombre = "Peru";
+        //pais1.cantidadPersonas = 33000000;
+        //pais1.deudas = 5000000;
+        //pais1.moneda = "sol";
+        //pais1.pregunta();
+        //pais1.deuda();
 
-        pais1.preguntas();
+        //pais1.pregunta();
+        pais1.nombre = "peru";
+        pais1.moneda = "sol";
+
+        pais2.nombre = "argentina";
+        pais2.moneda = "peso";
+
+        String b = pais1.mon();
+        String c = pais2.mon();
+
+        System.out.println(b + "   " + c);
+
+        //int a = pais1.deudas();
+        //System.out.println(a);
+        //System.out.println(pais1.deuda());
+        
+        calculador cal = new calculador();
+        cal.sumar(12);
+        cal.sumar("demo");
+        cal.sumar(2, 3);
+
     }
 
 }
