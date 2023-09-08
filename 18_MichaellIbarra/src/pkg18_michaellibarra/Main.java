@@ -44,6 +44,14 @@ public class Main {
         animal1.mostrarInformacion();
         animal1.emitirSonido();
          */
+ 
+        Pais pais1 = new Pais();
+        pais1.nombre = "Peru";
+        pais1.cantidadPersonas = 3000;
+        pais1.deuda = 50000;
+        pais1.moneda = "soles";
+
+        pais1.preguntas();
     }
 
 }

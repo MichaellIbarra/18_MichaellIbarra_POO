@@ -9,5 +9,13 @@ package pkg18_michaellibarra;
  * @author Matichelo
  */
 public class Pais {
-    
+
+    String nombre;
+    int cantidadPersonas;
+    int deuda;
+    String moneda;
+
+    public void preguntas() {
+        System.out.println("Soy el Pais " + nombre + " con una cantidad de personas de " + cantidadPersonas + " y una deuda de " + deuda + " de monedas " + moneda);
+    }
 }
