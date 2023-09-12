@@ -32,11 +32,11 @@ public class classPesona {
     //retorno
     
     public String getNombre() {
-        return nombre;
+        return "Estiven";
     }
 
     public int getEdad() {
-        return edad;
+        return 10;
     }
     
     
