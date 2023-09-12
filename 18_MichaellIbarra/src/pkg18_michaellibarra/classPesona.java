@@ -38,6 +38,17 @@ public class classPesona {
     public int getEdad() {
         return edad;
     }
+    
+    
+     // Métodos con parámetros y argumentos
+    public void cambiarNombre(String nuevoNombre) {
+        nombre = nuevoNombre;
+    }
+
+    public void cambiarEdad(int nuevaEdad) {
+        edad = nuevaEdad;
+    }
+
 
       
 }

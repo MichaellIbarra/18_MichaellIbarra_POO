@@ -81,8 +81,10 @@ public class Main {
         objpersona1.lugardeNacimiento = " Perú ";
         objpersona1.ocupacion = " Programador ";
         
+        objpersona1.cambiarNombre("Matichelo"); 
+        objpersona1.cambiarEdad(19);
         objpersona1.saludar();
-        
+
     }
 
 }
