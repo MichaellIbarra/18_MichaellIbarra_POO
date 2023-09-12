@@ -4,6 +4,13 @@
  */
 package pkg18_michaellibarra;
 
+import java.util.Scanner;
+import static pkg18_michaellibarra.S07_calculadora1.realizarOperacion;
+import static pkg18_michaellibarra.S07_calculadora2.dividir;
+import static pkg18_michaellibarra.S07_calculadora2.multiplicar;
+import static pkg18_michaellibarra.S07_calculadora2.restar;
+import static pkg18_michaellibarra.S07_calculadora2.sumar;
+
 /**
  *
  * @author Lab05
@@ -74,17 +81,40 @@ public class Main {
 
         int resultado = cal.obtenerResultado();
         System.out.println("Total " + resultado); */
+        //LO QUE PIDIO PRIMERO SOBRE CLASE PERSONA
         classPesona objpersona1 = new classPesona();
         objpersona1.nombre = "Michaell";
         objpersona1.apellidos = " Ibarra ";
         objpersona1.edad = 18;
         objpersona1.lugardeNacimiento = " Perú ";
         objpersona1.ocupacion = " Programador ";
-        
-        objpersona1.cambiarNombre("Matichelo"); 
+
+        objpersona1.cambiarNombre("Matichelo");
         objpersona1.cambiarEdad(19);
         objpersona1.saludar();
 
+        // S07_calculadora1 SOBRE LA CALCULADORA
+        S07_calculadora1 calcula = new S07_calculadora1();
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese el primer número: ");
+        double numero1 = scanner.nextDouble();
+
+        System.out.print("Ingrese el segundo número: ");
+        double numero2 = scanner.nextDouble();
+
+        System.out.print("Ingrese la operación (+, -, *, /): ");
+        String operacion = scanner.next();
+
+        calcula.realizarOperacion(numero1, numero2, operacion);
+
+        // S07_calculadora1 SOBRE LA CALCULADORA
+        S07_calculadora2 calcula2 = new S07_calculadora2();
+        System.out.println("Resultado de la suma: " + calcula2.sumar(numero1, numero2));
+        System.out.println("Resultado de la resta: " + calcula2.restar(numero1, numero2));
+        System.out.println("Resultado de la multiplicación: " + calcula2.multiplicar(numero1, numero2));
+        System.out.println("Resultado de la división: " + calcula2.dividir(numero1, numero2));
     }
 
 }
