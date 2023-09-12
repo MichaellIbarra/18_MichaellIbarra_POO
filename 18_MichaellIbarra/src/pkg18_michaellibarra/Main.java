@@ -76,10 +76,10 @@ public class Main {
         System.out.println("Total " + resultado); */
         classPesona objpersona1 = new classPesona();
         objpersona1.nombre = "Michaell";
-        objpersona1.apellidos = "Ibarra";
-        objpersona1.edad = 25;
-        objpersona1.lugardeNacimiento = "Perú";
-        objpersona1.ocupacion = "Programador";
+        objpersona1.apellidos = " Ibarra ";
+        objpersona1.edad = 18;
+        objpersona1.lugardeNacimiento = " Perú ";
+        objpersona1.ocupacion = " Programador ";
         
         objpersona1.saludar();
         
