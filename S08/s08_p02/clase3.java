@@ -8,7 +8,7 @@ package s08_p02;
  *
  * @author Lab05
  */
-public class clase2 {
+public class clase3 {
 
     public String a, b;
     private String c, d;
