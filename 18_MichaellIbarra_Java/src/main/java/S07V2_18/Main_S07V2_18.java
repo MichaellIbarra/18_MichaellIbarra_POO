@@ -13,7 +13,6 @@ public class Main_S07V2_18 {
         
         persona_18 objpersona1 = new persona_18();
         objpersona1.nombre = "Michaell";
-        objpersona1.apellidos = " Ibarra ";
         objpersona1.edad = 18;
         objpersona1.lugardeNacimiento = " Perú ";
         objpersona1.ocupacion = " Programador ";

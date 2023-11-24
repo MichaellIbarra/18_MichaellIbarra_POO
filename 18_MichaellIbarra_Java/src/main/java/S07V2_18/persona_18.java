@@ -11,7 +11,8 @@ package S07V2_18;
 public class persona_18 {
     //atributos
 
-    String nombre, apellidos, lugardeNacimiento, ocupacion;
+    String nombre, lugardeNacimiento, ocupacion;
+    char apellidos;
     int edad;
 
     //metodos
@@ -35,6 +36,10 @@ public class persona_18 {
 
     public int getEdad() {
         return 10;
+    }
+    
+    public char getapellido(){
+        return apellidos;
     }
 
     // Métodos con parámetros y argumentos
