@@ -12,7 +12,7 @@ public class main {
 
     public static void main(String[] args) {
 
-        // Modificador de Acceso Defult
+        // Defult
         Defult objDefult = new Defult();
         objDefult.name = "Michaell";
         objDefult.presentacion();
